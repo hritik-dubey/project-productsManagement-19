@@ -8,7 +8,6 @@ const orderSchema = new mongoose.Schema({
         ref: 'User',
         required: true,
         trim: true,
-        unique: true
     },
     items: [{
         productId: {
