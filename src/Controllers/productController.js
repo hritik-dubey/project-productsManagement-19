@@ -78,6 +78,7 @@ const createProduct = async (req, res) => {
         }
 
         //db call for title
+       
         let uniqueTitle = await productModel.findOne({ title: { $regex: title, $options: "i" } })
         if (uniqueTitle) {
             if (uniqueTitle.title.toUpperCase() == title.toUpperCase()) {
