@@ -9,14 +9,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/saurabh2160/project-productsManagement-19.git"
+    "url": "https://github.com/hritik-dubey/project-productsManagement-19.git"
   },
   "author": "Uranium/Group-19",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/saurabh2160/project-productsManagement-19/issues"
-  },
-  "homepage": "https://github.com/saurabh2160/project-productsManagement-19#readme",
+  
   "dependencies": {
     "aws-sdk": "^2.1141.0",
     "bcrypt": "^5.0.1",
